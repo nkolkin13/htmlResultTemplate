@@ -4,9 +4,11 @@ simple template for html+javascript to make table of comparison images with togg
 # Usage
 in base.html:
 
--N = number of image rows (each row should be a comparision/ set of inputs and outputs)
--im_folders = array of folder names in ./images/
--im_folder_display_name = displayed column name corresponding to image folder
+<ul>
+  <li>N = number of image rows (each row should be a comparision/ set of inputs and outputs)</li>
+  <li>im_folders = array of folder names in ./images/</li>
+  <li>im_folder_display_name = displayed column name corresponding to image folder</li>
+</ul>
 
 in ./images/:
 
